@@ -10,9 +10,8 @@ In general, this application can help a user (Guest) to be able to browse catalo
 
 - [ ] It have path `/asuransi/jiwa`
 - [ ] I can see two types of products of asuransi jiwa, they are _tanpa pengembalian premi_ and _dengan pengembalian premi_.
-- [ ] I only can choose a product _tanpa pengembalian premi_ by clicking that element
+- [ ] I only can choose a product _tanpa pengembalian premi_ by clicking that element but if i choose another product it will nothing happened.
 - [ ] if I choose that product I will be navigated to the page _Asuransi Jiwa Tanpa Pengembalian Premi_
-- [ ] but if i choose another product it will nothing happened.
 
 ## Development Guide
 
