@@ -9,7 +9,7 @@ import {
   ShieldCheckIcon,
 } from "@heroicons/react/solid";
 import React from "react";
-import { TypeItemAsuransi } from "../types";
+import { TypeItemAsuransi } from "@/components/asuransi-jiwa/types";
 import classNames from "classnames";
 import { useItemAsuransiJiwa } from "@/components/asuransi-jiwa/hooks/useItemAsuransiJiwa";
 import { useRouter } from "next/router";
@@ -56,9 +56,9 @@ const ProductDetail: React.FC<ProductDetailProps> = () => {
       <Layout className="relative">
         <NavHeader title="Asuransi Jiwa" />
         <div className="flex gap-3 py-4 fixed w-full max-w-md left-50 top-12 bg-white z-10">
-          {listDetail.map((item) => (
+          {listDetail.map((item, index) => (
             <button
-              key={item.value}
+              key={index}
               className={classNames("flex-1 btn btn-xs h-9 normal-case", {
                 "btn-active": activeView === item.value,
               })}
