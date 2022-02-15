@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["assets.qoala.app"],
+    domains: ["assets.qoala.app", "assets.qoalaplus.com"],
   },
 };
 
