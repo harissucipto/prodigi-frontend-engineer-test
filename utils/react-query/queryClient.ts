@@ -23,6 +23,7 @@ export const defaultQueryClientOptions = {
     refetchOnMount: false,
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,
+    retry: 1,
   },
   mutations: {
     onError: queryErrorHandler,
