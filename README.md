@@ -26,6 +26,8 @@ In general, this application can help a user (Guest) to be able to browse catalo
 ### Asuransi Jiwa List Product Page
 
 - [ ] it have path `asuransi/jiwa/info/produk`
+- [ ] it will displays no data if the data is not match with the filter
+- [ ] it will displays error if the backend of api error or connection error
 - [ ] it will display list of product insurances of asuransi jiwa tanpa pengembalian premi with requried params of birth of date and gender from user
 - [ ] the list can be sort with menu sort button
 - [ ] the list can be filter by Fitur with menu filter button
