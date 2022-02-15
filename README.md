@@ -33,6 +33,13 @@ In general, this application can help a user (Guest) to be able to browse catalo
 - [x] the list can be filter by Fitur with menu filter button
 - [x] i can click detail of product item by click button detail and it will navigate me to page _Asuransi Jiwa Detail Produk_
 
+### Asuransi Jiwa Detail Prouct Page
+
+- [ ] it have path `/asuransi/jiwa/info/produk/:id`
+- [ ] it will displays no data if the data is not match with the filter
+- [ ] it will displays error if the backend of api error or connection error
+- [ ] it will display detail of product if the data is match with the query
+
 ## Development Guide
 
 ### Running in development mode
