@@ -58,6 +58,18 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+To see test you can run this command:
+
+```bash
+yarn cy:open
+```
+
+To running test you run this command:
+
+```bash
+yarn cy:run
+```
+
 ### Stack
 
 - Next.js (framework server-side rendering and static web applications for ReactJS)
