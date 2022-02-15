@@ -16,14 +16,25 @@ const Product: React.FC<ProductProps> = (props) => {
 
   return (
     <div
-      className={classNames(props.className, "cursor-pointer")}
+      className={classNames(
+        props.className,
+        "cursor-pointer",
+        "flex border-b border-blue-100"
+      )}
       onClick={() => router.push(props.route)}
     >
-      <Image src={props.imgSrc} alt="" width={90} height={116.5} />
-      <div data-testid="product">
-        <h3 data-testid="product-title">{props.title}</h3>
-        <p>{props.description}</p>
-        <button>Pilih Produk</button>
+      <Image src={props.imgSrc} alt="" width={90} height={90} />
+      <div data-testid="product" className="pl-5 flex-1">
+        <h3 data-testid="product-title" className="text-sm font-bold mb-2">
+          {props.title}
+        </h3>
+        <p className="text-xs">{props.description}</p>
+
+        <div className="flex justify-end m-3">
+          <button className=" btn btn-xs normal-case" title={props.title}>
+            Pilih Produk
+          </button>
+        </div>
       </div>
     </div>
   );
