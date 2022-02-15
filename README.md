@@ -23,6 +23,13 @@ In general, this application can help a user (Guest) to be able to browse catalo
 - [x] if i not fill that form the button disabled
 - [x] if i fill that form then i can click the button and it will navigate me to page _Asuransi Jiwa Info Produk_ to see of the list of insurances
 
+### Asuransi Jiwa List Product Page
+
+- [ ] it have path `asuransi/jiwa/info/produk`
+- [ ] it will display list of product insurances of asuransi jiwa tanpa pengembalian premi with requried params of birth of date and gender from user
+- [ ] the list can be sort with menu sort button
+- [ ] the list can be filter by Fitur with menu filter button
+
 ## Development Guide
 
 ### Running in development mode
