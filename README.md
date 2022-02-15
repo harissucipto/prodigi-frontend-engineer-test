@@ -35,10 +35,10 @@ In general, this application can help a user (Guest) to be able to browse catalo
 
 ### Asuransi Jiwa Detail Prouct Page
 
-- [ ] it have path `/asuransi/jiwa/info/produk/:id`
-- [ ] it will displays no data if the data is not match with the filter
-- [ ] it will displays error if the backend of api error or connection error
-- [ ] it will display detail of product if the data is match with the query
+- [x] it have path `/asuransi/jiwa/info/produk/:id`
+- [x] it will displays no data if the data is not match with the filter
+- [x] it will displays error if the backend of api error or connection error
+- [x] it will display detail of product if the data is match with the query
 
 ## Development Guide
 
