@@ -13,6 +13,16 @@ In general, this application can help a user (Guest) to be able to browse catalo
 - [x] I only can choose a product _tanpa pengembalian premi_ by clicking that element but if i choose another product it will nothing happened.
 - [x] if I choose that product I will be navigated to the page _Asuransi Jiwa Tanpa Pengembalian Premi_
 
+### Asuransi Jiwa Tanpa Pengembalian Premi page
+
+- [ ] it have path `/asuransi/jiwa/tanpa-pengembalian-premi`
+- [ ] i can see a form of cari produk
+- [ ] it have required field of birth of date with typeof date with label Tanggal lahir
+- [ ] it have required field of gender with typeof radio button with values PRIA dan WANITA
+- [ ] it have button cari produk with label cari produk
+- [ ] if i not fill that form the button disabled
+- [ ] if i fill that form then i can click the button and it will navigate me to page _Asuransi Jiwa Info Produk_ to see of the list of insurances
+
 ## Development Guide
 
 ### Running in development mode
