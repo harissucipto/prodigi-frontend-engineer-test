@@ -20,7 +20,7 @@ const Jiwa: React.FC = () => {
             </p>
           }
         >
-          <div>
+          <div className="overflow-y-auto no-scrollbar">
             <p className="font-bold text-blue-600 mb-5">
               Asuransi Jiwa Terbaik untuk Lindungi Keluargamu{" "}
             </p>
