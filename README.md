@@ -15,13 +15,13 @@ In general, this application can help a user (Guest) to be able to browse catalo
 
 ### Asuransi Jiwa Tanpa Pengembalian Premi page
 
-- [ ] it have path `/asuransi/jiwa/tanpa-pengembalian-premi`
-- [ ] i can see a form of cari produk
-- [ ] it have required field of birth of date with typeof date with label Tanggal lahir
-- [ ] it have required field of gender with typeof radio button with values PRIA dan WANITA
-- [ ] it have button cari produk with label cari produk
-- [ ] if i not fill that form the button disabled
-- [ ] if i fill that form then i can click the button and it will navigate me to page _Asuransi Jiwa Info Produk_ to see of the list of insurances
+- [x] it have path `/asuransi/jiwa/tanpa-pengembalian-premi`
+- [x] i can see a form of cari produk
+- [x] it have required field of birth of date with typeof date with label Tanggal lahir
+- [x] it have required field of gender with typeof radio button with values PRIA dan WANITA
+- [x] it have button cari produk with label cari produk
+- [x] if i not fill that form the button disabled
+- [x] if i fill that form then i can click the button and it will navigate me to page _Asuransi Jiwa Info Produk_ to see of the list of insurances
 
 ## Development Guide
 
